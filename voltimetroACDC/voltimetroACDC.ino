@@ -225,7 +225,7 @@ void comunicacionSerial(){
     Serial.print("CH3: ");
     Serial.println(voltajeCH3);*/
 
-    //Serial.println("CH0: " + String(voltajeCH0) + " ,CH1: " + String(voltajeCH1) + " ,CH2: " + String(voltajeCH2) + " ,CH3: " + String(voltajeCH3)); 
+    Serial.println("CH0: " + String(voltajeCH0) + " ,CH1: " + String(voltajeCH1) + " ,CH2: " + String(voltajeCH2) + " ,CH3: " + String(voltajeCH3)); 
   }
   delay(500);
 }
